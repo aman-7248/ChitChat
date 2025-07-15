@@ -12,7 +12,7 @@ const app=express();
 
 const PORT=process.env.PORT || 4000;
 
-app.use(express.json());
+app.use(express.json());// this is used to exract JSON data out of the body.
 app.use(cookieParser());
 
 
