@@ -13,8 +13,10 @@ const app=express();
 
 const PORT=process.env.PORT || 4000;
 
-app.use(express.json());// this is used to exract JSON data out of the body.
+//app.use(express.json());// this is used to exract JSON data out of the body.
 app.use(cookieParser());
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
 
 app.use(cors({

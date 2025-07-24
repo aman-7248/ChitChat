@@ -1,4 +1,4 @@
-
+{/* toshow when messages are loading below chat header in chat container*/}
 const MessageSkeleton = () => {
   // Create an array of 6 items for skeleton messages
   const skeletonMessages = Array(6).fill(null);

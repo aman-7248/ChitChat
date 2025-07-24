@@ -18,9 +18,9 @@ const ChatContainer=()=>{
   if (isMessagesLoading) {
     return (
       <div className="flex-1 flex flex-col overflow-auto">
-        <ChatHeader />
-        <MessageSkeleton />
-        <MessageInput />
+        <ChatHeader /> {/*down also this component */}
+        <MessageSkeleton />  {/*extra compoent to show message loading */}
+        <MessageInput />  {/*down also this component */}
       </div>
     );
   }
@@ -29,7 +29,7 @@ const ChatContainer=()=>{
    return (
     <div className="flex-1 flex flex-col overflow-auto">
       <ChatHeader />
-
+      {/*displaying messages btw 2 guys */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.map((message) => (
           <div
