@@ -31,12 +31,12 @@ const AuthImagePattern = () => {
   const handles = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/your-profile",
+      url: "https://www.linkedin.com/in/amansingh72/",
       img: "https://cdn-icons-png.flaticon.com/512/174/174857.png",
     },
     {
       name: "GitHub",
-      url: "https://github.com/your-username",
+      url: "https://github.com/aman-7248",
       img: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     },
     {
@@ -46,7 +46,7 @@ const AuthImagePattern = () => {
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/your-handle",
+      url: "https://www.instagram.com/aman_10e/",
       img: "https://cdn-icons-png.flaticon.com/512/174/174855.png",
     },
   ];
